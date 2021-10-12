@@ -1,5 +1,6 @@
 # Título del proyecto 
-*  ejercicio-js-objetos-coder
+*  ejercicio-js-objetos-coder 
+*  Se trata de un juego con dos jugadores y existen dos metodos principales: curar y atacar. 
 
 ## Descripción
 * Reconocer elementos en el simulador cuya información está compuesta por más de un valor y existen operaciones comunes (funciones) para todos los elementos de este tipo y sus propiedades. 
