@@ -1,6 +1,6 @@
 
-/* Esta es una funcion de primera clase, miintencion es que trabaje como una class de tipo constructor, 
-lo que hace es setear al nombre dos propriedades adicionales done estan puntos de vida e punto extra.*/
+/* Esta es una funcion de primera clase, mi intencion es que trabaje como una class de tipo constructor, 
+lo que hace es setear al nombre dos propriedades adicionales donde estan puntos de vida y punto extra.*/
 
 function Jugador(nombre){
     this.nombre = nombre;
@@ -10,7 +10,7 @@ function Jugador(nombre){
 /*Este metodo llamado curar que recibe un jugadorAccion por parametro suma puntos de vida.
 Este metodo llamado atacar que recibe un jugadorAccion por parametro retira puntos de vida.
 
-Esa misma funcion de primera clase quien se encarga de imprimir este jugador por referencia a que hago decisiones sensillas o acciones simples*/
+Esa misma funcion de primera clase quien se encarga de imprimir este jugador por referencia a que hago decisiones sencillas o acciones simples*/
 
 
     this.curar = function(jugadorAccion){
@@ -33,9 +33,9 @@ Esa misma funcion de primera clase quien se encarga de imprimir este jugador por
         }
     }
 
-    this.estado = function (jugadorCurar){
+    this.estado = function (jugadorAccion){
         console.info(this);
-        console.info(jugadorCurar);
+        console.info(jugadorAccion);
     }
 };
 
